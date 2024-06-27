@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Universitas Medan Area</title>
+  <!--bootstrap-->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!--owl carousel-->
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <!--font awesome / icon -->
+  <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+  <!--style css-->
+  <link rel="stylesheet" href="asset/css/style.css" />
+</head>
+
+<body>
+  <section id="topbar">
+    <div class="informasi">
+      <div class="row">
+        <div class="col-md-10">
+          <ul>
+            <li>
+              <a href=""><i class="fas fa-phone"></i> 0823-6118-7976</a>
+            </li>
+            <li>
+              <a href=""><i class="fas fa-envelope"></i> universitasmedanarea.id</a>
+            </li>
+            <li>
+              <a href=""><i class="fas fa-bullhorn"></i> Sistem Informasi UMA</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="brand">
+            <img src="img/Uma.png" alt="" height=70px" width="70px" />
+            <div class="brand-name">
+              <h1>UNIVERSITAS MEDAN AREA</h1>
+              <h3>Universitas Unggul Bestari</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pembungkus-searchbox">
+          <div class="searchbox">
+            <form method="get">
+              <div class="input-group">
+                <input class="from-control" type="text" name="Cari" placeholder="Cari Sesuatu..."
+                  aria-label="Tombol Cari" aria-describedby="Tombol Cari" />
+                <div class="input-group-append">
+                  <button class="btn btn-utama" id="tombol-cari">Cari</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-biru">
+      <div class="container">
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+          aria-expanded="false" aria-label="togle navigation">
+          <span class="navbar-toggler-icon">Menu</span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Beranda<span class="sr-only"></span></a>
+            </li>
+            <div class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">profil</a>
+              <li class="dropdown-menu">
+                <a class="dropdown-item" href="profilsejarah.html">Sejarah</a>
+                <a class="dropdown-item" href="visimisi.html">Visi&Misi</a>
+                <a class="dropdown-item" href="peta.html">Peta universitas</a>
+              </li>
+
+            </div>
+
+            <div class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sarana & Prasarana</a>
+              <li class="dropdown-menu">
+                <a class="dropdown-item" href="#">Sarana Insfrastruktur</a>
+                <a class="dropdown-item" href="saranapembelajaran.html">Sarana Pembelajaran</a>
+              </li>
+
+            </div>
+            <div class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Berita</a>
+              <li class="dropdown-menu">
+                <a class="dropdown-item" href="#">Berita Universitas</a>
+                <a class="dropdown-item" href="pengumuman.html">Pengumuman</a>
+                <a class="dropdown-item" href="agenda.html">Agenda</a>
+                <a class="dropdown-item" href="calender.html">Kalender Akademik</a>
+              </li>
+
+            </div>
+            <div class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galeri</a>
+              <li class="dropdown-menu">
+                <a class="dropdown-item" href="galeri.html">Galeri foto</a>
+                <a class="dropdown-item" href="documentasi.html">Galeri Video/Documuntasi</a>
+              </li>
+
+            </div>
+            <li class="nav-item">
+              <a class="nav-link disable" href="prestasi.html" tabindex="-1" aria-disabled="true">Prestasi</a>
+                  <li class="nav-item">
+                    <a class="nav-link disable" href="eskul.html" tabindex="-1" aria-disabled="true">Ekstrakulikuler</a>
+                    <li class="nav-item">
+                      <a class="nav-link disable" href="#footer" tabindex="-1" aria-disabled="true">Kontak</a>
+                    </li>
+                  </li>
+                </li>
+
+              </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!--isi-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Universitas Medan Area</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .main-content {
+            flex: 10%;
+            margin-right: 10px;
+        }
+        .sidebar {
+            flex: 30%;
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+        .news-item {
+            margin-bottom: 20px;
+        }
+        .news-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .news-item h2 {
+            color: #003366;
+        }
+        .news-item p {
+            color: #666;
+        }
+        .footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Berita Terbaru dari Universitas Medan Area</h1>
+        <p>Dapatkan informasi terbaru tentang acara, prestasi, dan kegiatan di Universitas Medan Area</p>
+    </div>
+    <div class="content">
+        <div class="main-content">
+            <div class="news-item">
+                <img src="img/kunjungan-penjajakan-kerjasama-pt-bank-tabungan-negara-btn-tbk-kc-medan.jpg" alt="News 1">
+                <h2>Universitas Medan Area Terima Kunjungan Penjajakan Kerjasama PT Bank Tabungan Negara (BTN) Tbk KC Medan</h2>
+                <p>Universitas Medan Area menerima kunjungan dari PT Bank Tabungan Negara (BTN) Tbk KC Medan Jl. Pemuda No.10 A, A U R, Medan, dalam rangka penjajakan kerjasama dalam bidang penyediaan layanan keuangan untuk mendukung kegiatan akademik di kampus pada 14 Mei 2024.
+
+                    CEO PT Bank Tabungan Negara (BTN) Tbk KC Medan mengatakan pihaknya memiliki serangkaian produk layanan perbankan yang bisa dimanfaatkan oleh pihak kampus untuk berbagai kebutuhan, termasuk layanan digital banking, PayRoll dan lainnya.</p>
+                <a href="#">Baca Selengkapnya</a>
+            </div>
+            <div class="news-item">
+                <img src="img/berita.png" alt="News 2">
+                <h2>Peringkat UMA</h2>
+                <p>Universitas medan Area sukses meraih peringkat 19 top universies on facebook versi 4ICu unirangk"</p>
+                <a href="#">Baca Selengkapnya</a>
+            </div>
+            <!-- Tambahkan berita lainnya di sini -->
+        </div>
+    </div>
+</body>
+
+<footer id="footer">
+    <div class="social-media">
+        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+    <p>&copy; 2023 Universitas Medan Area</p>
+
+</footer>
+
+    </section>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+  </header>
+</body>
+
+</html>

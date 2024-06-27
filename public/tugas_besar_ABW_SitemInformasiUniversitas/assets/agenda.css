@@ -1,0 +1,57 @@
+header {
+    color: rgb(7, 177, 58);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#agenda {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#agenda h2 {
+    text-align: center;
+}
+
+.agenda-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.agenda-item:last-child {
+    border-bottom: none;
+}
+
+.agenda-item h3 {
+    margin: 0;
+}
+
+.agenda-item p {
+    margin: 5px 0 0;
+    color: #555;
+}

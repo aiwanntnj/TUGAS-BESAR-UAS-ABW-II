@@ -1,0 +1,20 @@
+.mahasiswa-item {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.mahasiswa-foto {
+    max-width: 100px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.mahasiswa-info {
+    overflow: hidden;
+}
+
+.mahasiswa-item:hover .mahasiswa-foto {
+    transform: scale(1.1);
+}

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Universitas Medan Area</title>
+  <!--bootstrap-->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!--owl carousel-->
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <!--font awesome / icon -->
+  <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+  <!--style css-->
+  <link rel="stylesheet" href="asset/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section id="topbar">
+    <div class="informasi">
+      <div class="row">
+        <div class="col-md-10">
+          <ul>
+            <li>
+              <a href=""><i class="fas fa-phone"></i> 0823-6118-7976</a>
+            </li>
+            <li>
+              <a href=""><i class="fas fa-envelope"></i> universitasmedanarea.id</a>
+            </li>
+            <li>
+              <a href=""><i class="fas fa-bullhorn"></i> Sistem Informasi UMA</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="brand">
+            <img src="img/Uma.png" alt="" height=70px" width="70px" />
+            <div class="brand-name">
+              <h1>UNIVERSITAS MEDAN AREA</h1>
+              <h3>Universitas Unggul Bestari</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pembungkus-searchbox">
+          <div class="searchbox">
+            <form method="get">
+              <div class="input-group">
+                <input class="from-control" type="text" name="Cari" placeholder="Cari Sesuatu..."
+                  aria-label="Tombol Cari" aria-describedby="Tombol Cari" />
+                <div class="input-group-append">
+                  <button class="btn btn-utama" id="tombol-cari">Cari</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-biru">
+      <div class="container">
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+          aria-expanded="false" aria-label="togle navigation">
+          <span class="navbar-toggler-icon">Menu</span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Beranda<span class="sr-only"></span></a>
+            </li>
+            <div class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">profil</a>
+              <li class="dropdown-menu">
+                <a class="dropdown-item" href="profilsejarah.html">Sejarah</a>
+                <a class="dropdown-item" href="visimisi.html">Visi&Misi</a>
+                <a class="dropdown-item" href="peta.html">Peta universitas</a>
+              </li>
+
+            </div>
+
+            <div class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sarana & Prasarana</a>
+              <li class="dropdown-menu">
+                <a class="dropdown-item" href="insfra.html">Sarana Insfrastruktur</a>
+                <a class="dropdown-item" href="saranapembelajaran.html">Sarana Pembelajaran</a>
+              </li>
+
+            </div>
+            <div class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Berita</a>
+              <li class="dropdown-menu">
+                <a class="dropdown-item" href="berita.html">Berita Universitas</a>
+                <a class="dropdown-item" href="pengumuman.html">Pengumuman</a>
+                <a class="dropdown-item" href="#">Agenda</a>
+                <a class="dropdown-item" href="calender.html">Kalender Akademik</a>
+              </li>
+
+            </div>
+            <div class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galeri</a>
+              <li class="dropdown-menu">
+                <a class="dropdown-item" href="galeri.html">Galeri foto</a>
+                <a class="dropdown-item" href="documentasi.html">Galeri Video/Documuntasi</a>
+              </li>
+
+            </div>
+            <li class="nav-item">
+              <a class="nav-link disable" href="prestasi.html" tabindex="-1" aria-disabled="true">Prestasi</a>
+                  <li class="nav-item">
+                    <a class="nav-link disable" href="#" tabindex="-1" aria-disabled="true">Ekstrakulikuler</a>
+                    <li class="nav-item">
+                      <a class="nav-link disable" href="#footer" tabindex="-1" aria-disabled="true">Kontak</a>
+                    </li>
+                  </li>
+                </li>
+
+              </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!--isi-->
+<style>
+    header {
+        color: #eae728;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    h2 {
+        color: #0a68b5;
+        border-bottom: 2px solid #333;
+        padding-bottom: 10px;
+    }
+
+    .ekstrakurikuler {
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #038085;
+        border-radius: 5px;
+    }
+
+    .ekstrakurikuler h3 {
+        margin-top: 0;
+    }
+
+    .ekstrakurikuler p {
+        margin-bottom: 10px;
+        color: aliceblue;
+    }
+
+</style>
+</head>
+<body>
+<header>
+    <h1>Informasi Ekstrakurikuler di Universitas</h1>
+</header>
+<section>
+    <h2>Ekstrakurikuler Olahraga</h2>
+    <div class="ekstrakurikuler">
+        <h3>Klub Sepak Bola</h3>
+        <p>Klub sepak bola universitas menyediakan pelatihan rutin dan berpartisipasi dalam turnamen antar-universitas.</p>
+        <p>Waktu Pelatihan: Setiap Senin dan Kamis, Pukul 16.00 - 18.00</p>
+        <p>Tempat: Lapangan Utama Universitas</p>
+    </div>
+    <div class="ekstrakurikuler">
+        <h3>Klub Bulu Tangkis</h3>
+        <p>Klub bulu tangkis universitas menyediakan pelatihan dan turnamen bulu tangkis baik tingkat lokal maupun nasional.</p>
+        <p>Waktu Pelatihan: Setiap Selasa dan Jumat, Pukul 15.00 - 17.00</p>
+        <p>Tempat: GOR Universitas</p>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="social-media">
+        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+    <p>&copy; 2023 Universitas Medan Area</p>
+
+</footer>
+
+    </section>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+    <script src="agenda.js"></script>
+  </header>
+</body>
+
+</html>

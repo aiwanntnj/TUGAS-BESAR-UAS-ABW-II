@@ -1,0 +1,36 @@
+main {
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #59ec3c;
+}
+
+h2 {
+    color: #25e635;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 0.3em;
+    text-align: center;
+}
+
+.vision,
+.mission {
+    background-color: rgb(4, 107, 120);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+p {
+    color: #ffffff;
+}
+ul {
+    color: #ffffff;
+}
